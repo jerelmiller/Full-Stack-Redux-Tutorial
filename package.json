@@ -5,6 +5,7 @@
   "description": "Voting Example for full stack redux",
   "main": "index.js",
   "scripts": {
+    "start": "babel-node index.js",
     "test": "./node_modules/mocha/bin/mocha --compilers js:babel/register --require ./test/testHelper.js --recursive",
     "test:watch": "npm run test -- --watch"
   },
@@ -18,6 +19,7 @@
   },
   "dependencies": {
     "immutable": "^3.7.5",
-    "redux": "^3.0.2"
+    "redux": "^3.0.2",
+    "socket.io": "^1.3.7"
   }
 }
