@@ -8,5 +8,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jerel Miller",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3"
+  }
 }
