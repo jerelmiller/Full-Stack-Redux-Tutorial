@@ -1,0 +1,12 @@
+{
+  "name": "full-stack-redux-example",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Voting Example for full stack redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jerel Miller",
+  "license": "MIT"
+}
